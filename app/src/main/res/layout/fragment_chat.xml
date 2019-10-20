@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChatFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profc"
+        android:layout_width="match_parent"
+        android:layout_height="296dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/chatname"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="chat fragment"
+        android:textColor="#00000000"
+        android:textSize="36sp" />
+
+
+
+</LinearLayout>
